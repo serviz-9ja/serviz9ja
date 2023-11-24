@@ -1,0 +1,383 @@
+
+
+/* Navigation Bar Styles */
+.navbar {
+    background-color: forestgreen;
+    color: gold;
+    padding: 10px 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    max-width: 140px; /* Adjust the max-width as needed */
+    height: auto;
+    margin-right: 7px; /* Adjust the spacing between logo and text */
+}
+
+.brand-name {
+    font-size: 1.8em; /* Adjust the font size as needed */
+    font-weight: bold;
+}
+
+.highlighted {
+    color: rgb(233, 232, 224); /* Color for the "9ja" part */
+}
+
+.nav-links a {
+    color: rgb(251, 251, 251);
+    text-decoration: none;
+    margin-left: 20px; /* Adjust the spacing between links */
+    font-weight: bold;
+    font-size: 1.4em; /* Adjust the font size of the links */
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}
+/* Hero heading Styles *//* Add the following styles to your existing CSS file */
+
+
+
+
+/* Hero Header Section */
+.hero-section {
+    background-color: #08eb7a
+    padding: 80px 0;
+    text-align: center;
+}
+
+.hero-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-text {
+    width: 50%;
+    text-align: left;
+}
+
+.hero-text h1 {
+    font-size: 2.5em;
+    color: #26A967;
+}
+
+.hero-text p {
+    font-size: 1.2em;
+    color: #555;
+}
+
+.hero-image img {
+    max-width: 100%;
+    height: auto;
+    padding-top: 10px;
+}
+
+.hero-bottom {
+    margin-top: 40px;
+}
+
+.hero-bottom p {
+    font-size: 1.2em;
+    color: #555;
+}
+
+.cta-buttons {
+    margin-top: 20px;
+}
+
+.signup-button {
+    display: inline-flex;
+    padding: 20px 20px;
+    margin-right: 20px;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.vendor-button {
+    background-color: rgb(243, 247, 9);
+    color: #fff;
+}
+
+.user-button {
+    background-color: gold;
+    color: #333;
+}
+
+
+/* Our Services Section Styles */
+
+.centered-heading {
+    text-align: center;
+    margin-top: 50px; /* Adjust the margin as needed */
+    color: #0a5302; /* Adjust the text color */
+    font-size: 2.5em; /* Adjust the font size */
+}
+
+.our-services-section {
+    background-color: #f8f8f8; /* Light background color */
+    padding: 50px 0;
+    text-align: center; /* Center-align the section content */
+}
+
+.service-columns {
+    display: flex;
+    justify-content: space-between; /* Adjust spacing between columns */
+    flex-wrap: wrap; /* Allow columns to wrap to the next line on smaller screens */
+}
+
+.service-column {
+    flex: 1;
+    text-align: center;
+    margin: 0 10px; /* Adjust margin between columns */
+    margin-bottom: 30px;
+    padding: 20px;
+    background: linear-gradient(180deg, #8EC13A 0%, #f0f0f0 100%); /* Gradient for distinct background */
+    border-radius: 10px; /* Rounded corners for service columns */
+    box-shadow: 0 0 20px rgba(32, 2, 2, 0.1); /* Box shadow for a subtle effect */
+}
+
+.service-column img {
+    max-width: 80px; /* Adjust the max-width of the icons */
+    margin-bottom: 15px; /* Spacing between icon and heading */
+}
+
+.service-column h3 {
+    color: #333; /* Dark text color for headings */
+    font-size: 1.5em; /* Adjust the font size of the headings */
+    margin-bottom: 10px; /* Spacing between heading and services list */
+}
+
+.service-column ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.service-column ul li {
+    margin-bottom: 8px; /* Spacing between list items */
+}
+
+.cta-buttons {
+    margin-top: 20px; /* Spacing between services list and buttons */
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #050505; /* Text color for buttons */
+    text-decoration: none;
+    border-radius: 13px; /* Rounded corners for buttons */
+    transition: background-color 0.3s ease;
+    margin-right: 20px; /* Margin between buttons */
+}
+
+.signup-button {
+    background-color: #108015; /* Forest green color for sign up button */
+}
+
+.request-button {
+    background-color: gold; /* Gold color for request a service button */
+}
+
+.cta-button:hover {
+    opacity: 1; /* Reduced opacity on hover for a subtle effect */
+}
+
+
+
+
+//* Existing CSS */
+
+/* Security and Reliability Section Styles */
+.security-reliability-section {
+    background: url('path/to/background-image.jpg') center/cover; /* Replace 'path/to/background-image.jpg' with the actual path to your background image */
+    color: #fff; /* Text color for the section */
+    padding: 50px 20px; /* Adjust padding for smaller screens */
+}
+
+.container {
+    display: flex;
+    flex-direction: column; /* Display content in a column on smaller screens */
+    justify-content: center;
+    align-items: center;
+}
+
+.section-content {
+    max-width: 100%;
+    text-align: center; /* Center-align text on smaller screens */
+}
+
+.section-title {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.section-description {
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+
+.section-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px; /* Add a border radius for a rounded image */
+}
+
+/* Media Query for Smaller Screens */
+@media (min-width: 768px) {
+    .security-reliability-section {
+        padding: 50px 0; /* Adjust padding for larger screens */
+    }
+
+    .container {
+        flex-direction: row; /* Display content in a row on larger screens */
+    }
+
+    .section-content {
+        max-width: 600px;
+        text-align: left; /* Align text to the left on larger screens */
+        margin-right: 20px; /* Add margin between text and image on larger screens */
+    }
+}
+/* Existing CSS */
+
+/* Brand Strength Section Styles */
+.brand-strength-section {
+    background-color: #e5e057; /* Light background color */
+    color: #0e0d0d; /* Text color for the section */
+    padding: 70px 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column; /* Display content in a column on smaller screens */
+    justify-content: center;
+    align-items: center;
+}
+
+.section-content {
+    max-width: 100%;
+    padding: 0 30px;
+    text-align: center;
+}
+
+.tagline {
+    color: #052205; /* Forest Green, adjust to your brand color */
+    font-size: 1em;
+    margin-bottom: 15px;
+}
+
+.caption {
+    color: #09800d; /* Gold, adjust to your brand color */
+    font-size: 2em;
+    margin-bottom: 15px;
+}
+
+.brand-strengths {
+    margin-top: 10px;
+}
+
+.strength-description {
+    font-size: 1.2em;
+    margin-bottom: 15px;
+}
+
+.strength-list {
+    list-style: none;
+    padding: 0;
+}
+
+.strength-list li {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.strength-icon {
+    margin-right: 10px;
+    max-width: 20px; /* Set a max width for the icons */
+    height: auto;
+}
+
+/* Media Query for Smaller Screens */
+@media (min-width: 768px) {
+    .container {
+        flex-direction: row; /* Display content in a row on larger screens */
+    }
+
+    .section-content {
+        max-width: 50%;
+        text-align: left; /* Align text to the left on larger screens */
+        margin-right: 20px; /* Add margin between text and image on larger screens */
+    }
+}
+/* Existing CSS */
+
+/* Feature Section Styles */
+/* Existing CSS */
+
+/* Feature Section Styles */
+.features-section {
+    background: linear-gradient(to right, #228B22, #FFD700); /* Gradient using brand colors */
+    color: #fff; /* Text color for the section */
+    padding: 50px 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-content {
+    flex: 2; /* Adjust the flex value to control the width ratio */
+    max-width: 60%; /* Adjust the max-width to control the width of the text */
+    padding-right: 20px;
+}
+
+.caption {
+    font-size: 2em;
+    margin-bottom: 15px;
+}
+
+.section-paragraph {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.sub-paragraph {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.feature-icon {
+    max-width: 40px;
+    height: auto;
+    margin-right: 15px;
+}
+
+.section-image {
+    flex: 1; /* Adjust the flex value to control the width ratio */
+}
+
+.section-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px; /* Add a border radius for a rounded image */
+}
